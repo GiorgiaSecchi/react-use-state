@@ -28,14 +28,14 @@ main .container {
 }
 
 .btn-lang:hover {
-  background-color: gold;
+  background-color: gainsboro;
   color: black;
 }
 
-/* .btn-lang.active {
+.btn-lang.active {
   background-color: gold;
   color: black;
-} */
+}
 
 .card {
   border: 1px solid gray;

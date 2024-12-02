@@ -12,7 +12,9 @@ export default function Main() {
         <div>
           {languages.map((lang, index) => (
             <button
-              className="btn-lang"
+              className={`btn-lang ${
+                selectedLanguage.title === lang.title ? `active` : null
+              }`}
               key={index}
               onClick={() => setSelectedLanguage(lang)}
             >
