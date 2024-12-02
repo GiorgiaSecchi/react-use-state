@@ -11,10 +11,10 @@ export default function Main() {
               {lang.title}
             </button>
           ))}
-          <div className="card">
-            <h3>title</h3>
-            <p>description</p>
-          </div>
+        </div>
+        <div className="card">
+          <h3>{languages[0].title}</h3>
+          <p>{languages[0].description}</p>
         </div>
       </section>
     </main>

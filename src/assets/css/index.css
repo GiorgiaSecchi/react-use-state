@@ -6,6 +6,18 @@ h1 {
   margin-bottom: 1rem;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+}
+
 .btn-lang {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -14,11 +26,6 @@ h1 {
   padding: 0.5rem 1rem 0.5rem 1rem;
   background-color: royalblue;
   color: white;
-}
-
-main .container {
-  display: flex;
-  justify-content: center;
 }
 
 .card {
