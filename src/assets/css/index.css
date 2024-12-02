@@ -20,3 +20,10 @@ main .container {
   display: flex;
   justify-content: center;
 }
+
+.card {
+  border: 1px solid gray;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
