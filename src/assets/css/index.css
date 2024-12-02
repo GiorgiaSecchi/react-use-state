@@ -19,8 +19,7 @@ main .container {
 }
 
 .btn-lang {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 1rem;
   border-radius: 5px;
   border: none;
   padding: 0.5rem 1rem 0.5rem 1rem;
@@ -28,9 +27,20 @@ main .container {
   color: white;
 }
 
+.btn-lang:hover {
+  background-color: gold;
+  color: black;
+}
+
+/* .btn-lang.active {
+  background-color: gold;
+  color: black;
+} */
+
 .card {
   border: 1px solid gray;
   margin-top: 2rem;
   padding: 2rem;
   border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

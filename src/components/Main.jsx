@@ -1,20 +1,30 @@
 import languages from "../data/languages";
 // console.log(languages);
+import { useState } from "react";
 
 export default function Main() {
+  const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
+
   return (
     <main>
       <section className="container">
+        {/* bottoni */}
         <div>
           {languages.map((lang, index) => (
-            <button className="btn-lang" key={index}>
+            <button
+              className="btn-lang"
+              key={index}
+              onClick={() => setSelectedLanguage(lang)}
+            >
               {lang.title}
             </button>
           ))}
         </div>
+
+        {/* card */}
         <div className="card">
-          <h3>{languages[0].title}</h3>
-          <p>{languages[0].description}</p>
+          <h3>{selectedLanguage.title}</h3>
+          <p>{selectedLanguage.description}</p>
         </div>
       </section>
     </main>
