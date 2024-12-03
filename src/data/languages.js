@@ -1,4 +1,4 @@
-const languages = [
+export const languages = [
   {
     id: 1,
     title: "HTML",
@@ -37,4 +37,4 @@ const languages = [
   },
 ];
 
-export default languages;
+// export default languages;

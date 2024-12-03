@@ -1,9 +1,10 @@
-import languages from "../data/languages";
+import { languages } from "../data/languages";
 // console.log(languages);
 import { useState } from "react";
 
 export default function Main() {
   const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
+  // console.log(useState(languages[0]));
 
   return (
     <main>
