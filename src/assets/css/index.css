@@ -39,7 +39,7 @@ main .container {
 
 .card {
   border: 1px solid gray;
-  margin-top: 2rem;
+  margin: 1rem;
   padding: 2rem;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
